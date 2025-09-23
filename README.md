@@ -1,6 +1,6 @@
 # Synapse
 
-Cloud Native  Microservices Application
+Cloud Native Microservices Application
 Project Description
 This project is a cloud-native microservices application built to demonstrate a modern, scalable, and resilient software architecture. The application is a [briefly describe your application, e.g., "simple e-commerce platform that handles product management and user authentication"]. It showcases my proficiency with microservices, containerization, orchestration, and cloud deployment.
 Core Features
@@ -34,3 +34,4 @@ Prerequisites
 • [e.g., Python 3.9+]
 • [e.g., Terraform]
 COMING SOON!
+**THANK YOU**
