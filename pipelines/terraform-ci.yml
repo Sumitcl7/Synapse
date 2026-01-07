@@ -13,9 +13,14 @@ stages:
         steps:
           - checkout: self
 
-          - task: TerraformInstaller@1
-            inputs:
-              terraformVersion: "1.13.5"
+          - script: |
+              sudo apt-get update
+              sudo apt-get install -y wget unzip
+              wget https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_linux_amd64.zip
+              unzip terraform_1.13.5_linux_amd64.zip
+              sudo mv terraform /usr/local/bin/
+              terraform -version
+            displayName: "Install Terraform"
 
           - script: |
               cd infra/envs/dev
