@@ -1,0 +1,24 @@
+trigger:
+  branches:
+    include:
+      - main
+
+stages:
+  - stage: Terraform_Plan
+    displayName: "Terraform Plan (DEV)"
+    jobs:
+      - job: Plan
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+          - checkout: self
+
+          - task: TerraformInstaller@1
+            inputs:
+              terraformVersion: "1.13.5"
+
+          - script: |
+              cd infra/envs/dev
+              terraform init
+              terraform plan
+            displayName: "Terraform Init & Plan"
