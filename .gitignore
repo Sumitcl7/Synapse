@@ -2,9 +2,16 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
-terraform.tfvars
+.terraform.lock.hcl
 
-# OS junk
+# Azure / kube
+.kube/
+.env
+
+# Docker
+node_modules/
+npm-debug.log
+
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini

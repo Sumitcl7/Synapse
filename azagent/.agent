@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 9,
+  "agentName": "SUMITPC",
+  "poolId": 10,
+  "poolName": "local-agent",
+  "serverUrl": "https://dev.azure.com/synapse-devops1/",
+  "workFolder": "_work"
+}

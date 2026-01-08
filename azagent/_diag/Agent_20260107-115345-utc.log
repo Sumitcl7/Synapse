@@ -1,0 +1,420 @@
+﻿[2026-01-07 11:53:45Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-01-07 11:53:45Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-01-07 11:53:45Z VERB AgentProcess] Entering MainAsync
+[2026-01-07 11:53:45Z INFO AgentProcess] Agent package win-x64.
+[2026-01-07 11:53:45Z INFO AgentProcess] Running on Windows (X64).
+[2026-01-07 11:53:45Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2026-01-07 11:53:45Z VERB Terminal] Entering Initialize
+[2026-01-07 11:53:45Z INFO AgentProcess] Version: 4.266.2
+[2026-01-07 11:53:45Z INFO AgentProcess] Commit: 8bd04534a6d7a6a1874cd11de367aa39f25fc9b2
+[2026-01-07 11:53:45Z INFO AgentProcess] Culture: en-IN
+[2026-01-07 11:53:45Z INFO AgentProcess] UI Culture: en-US
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z VERB AgentProcess] Configuring Windows-specific settings and validating prerequisites
+[2026-01-07 11:53:45Z VERB PowerShellExeUtil] Entering Initialize
+[2026-01-07 11:53:45Z VERB PowerShellExeUtil] Entering GetPath
+[2026-01-07 11:53:45Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-01-07 11:53:45Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Generation: '1'
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Generation: '3'
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-01-07 11:53:45Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-01-07 11:53:45Z INFO AgentProcess] PowerShell validation successful - compatible version found
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2026-01-07 11:53:45Z INFO AgentProcess]  'CDF'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'v2.0.50727'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'v3.0'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'v3.5'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'v4'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'v4.0'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2026-01-07 11:53:45Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 11:53:45Z INFO AgentProcess] Found version: 2.0.50727
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2026-01-07 11:53:45Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 11:53:45Z INFO AgentProcess] Found version: 3.0
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2026-01-07 11:53:45Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 11:53:45Z INFO AgentProcess] Found version: 3.5
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2026-01-07 11:53:45Z INFO AgentProcess]  'Client'
+[2026-01-07 11:53:45Z INFO AgentProcess]  'Full'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2026-01-07 11:53:45Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 11:53:45Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2026-01-07 11:53:45Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 11:53:45Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2026-01-07 11:53:45Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2026-01-07 11:53:45Z INFO AgentProcess] Found 5 versions:
+[2026-01-07 11:53:45Z INFO AgentProcess]  2.0.50727
+[2026-01-07 11:53:45Z INFO AgentProcess]  3.0
+[2026-01-07 11:53:45Z INFO AgentProcess]  3.5
+[2026-01-07 11:53:45Z INFO AgentProcess]  4.7.0
+[2026-01-07 11:53:45Z INFO AgentProcess]  4.7.0
+[2026-01-07 11:53:45Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z VERB PromptManager] Entering Initialize
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.Password
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.Token
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2026-01-07 11:53:45Z INFO HostContext] Value is empty.
+[2026-01-07 11:53:45Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "UseBasicAuthForProxy": false,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2026-01-07 11:53:45Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-01-07 11:53:45Z VERB Agent] Entering Initialize
+[2026-01-07 11:53:45Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-01-07 11:53:45Z VERB Agent] Entering ExecuteCommand
+[2026-01-07 11:53:45Z VERB Agent] Initializing core services...
+[2026-01-07 11:53:45Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.proxy'
+[2026-01-07 11:53:45Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-01-07 11:53:45Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-01-07 11:53:45Z VERB AgentCertificateManager] Entering Initialize
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.certificates'
+[2026-01-07 11:53:45Z INFO AgentCertificateManager] No certificate setting found.
+[2026-01-07 11:53:45Z VERB ConfigurationManager] Entering Initialize
+[2026-01-07 11:53:45Z VERB ConfigurationManager] Creating _store
+[2026-01-07 11:53:45Z VERB ConfigurationStore] Entering Initialize
+[2026-01-07 11:53:45Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] binPath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] RootFolder: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Agent': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.agent'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.credentials'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Service': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.service'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Autologon': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.autologon'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'Options': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.options'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.setup_info'
+[2026-01-07 11:53:45Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-01-07 11:53:45Z VERB ConfigurationManager] store created
+[2026-01-07 11:53:45Z VERB LocationServer] Entering Initialize
+[2026-01-07 11:53:45Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.266.2             |_|          (commit 8bd0453)
+
+[2026-01-07 11:53:45Z INFO ConfigurationManager] CheckAgentRootDirectorySecure
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 11:53:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 11:53:45Z WARN ConfigurationManager] The BUILTIN\Users group have the following permissions to the agent root folder: 
+[2026-01-07 11:53:45Z WARN ConfigurationManager] - Modify, Synchronize
+[2026-01-07 11:53:45Z INFO Terminal] WRITE: Security warning! The group BUILTIN\Users has access to write/modify the agent folder. Please examine the log for more details.
+[2026-01-07 11:53:45Z INFO ConfigurationManager] Agent configuration initiated - OS: Windows, Architecture: X64, AgentVersion: 4.266.2
+[2026-01-07 11:53:45Z INFO ConfigurationStore] IsConfigured()
+[2026-01-07 11:53:45Z INFO ConfigurationStore] IsConfigured: False
+[2026-01-07 11:53:45Z INFO ConfigurationManager] Is configured: False
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'usebasicauthforproxy': 'False'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 11:53:45Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 11:53:45Z INFO ConfigurationManager] Agent type determined from command - Type: 'BuildReleasesAgentConfiguration', IsDeploymentGroup: False, IsEnvironmentVM: False
+[2026-01-07 11:53:45Z VERB ExtensionManager] Entering Initialize
+[2026-01-07 11:53:45Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-01-07 11:53:45Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2026-01-07 11:53:45Z VERB BuildReleasesAgentConfigProvider] Entering Initialize
+[2026-01-07 11:53:45Z VERB AgentServer] Entering Initialize
+[2026-01-07 11:53:45Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2026-01-07 11:53:45Z VERB DeploymentGroupAgentConfigProvider] Entering Initialize
+[2026-01-07 11:53:45Z VERB DeploymentGroupServer] Entering Initialize
+[2026-01-07 11:53:45Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2026-01-07 11:53:45Z VERB SharedDeploymentAgentConfigProvider] Entering Initialize
+[2026-01-07 11:53:45Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2026-01-07 11:53:45Z VERB EnvironmentVMResourceConfigProvider] Entering Initialize
+[2026-01-07 11:53:45Z VERB EnvironmentsServer] Entering Initialize
+[2026-01-07 11:53:45Z INFO ConfigurationManager] Configuration provider resolved - Provider: 'BuildReleasesAgentConfigProvider' for agent type: 'BuildReleasesAgentConfiguration'
+[2026-01-07 11:53:45Z INFO Terminal] WRITE LINE: 
+[2026-01-07 11:53:45Z INFO Terminal] WRITE LINE: >> Connect:
+[2026-01-07 11:53:45Z INFO Terminal] WRITE LINE: 
+[2026-01-07 11:53:45Z INFO CommandSettings] Arg 'url': ''
+[2026-01-07 11:53:45Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 11:53:45Z INFO PromptManager] ReadValue
+[2026-01-07 11:53:45Z INFO Terminal] WRITE: Enter server URL > 
+[2026-01-07 11:53:45Z INFO Terminal] READ LINE
+[2026-01-07 11:55:34Z INFO Terminal] Read value: 'https://dev.azure.com/synapse-devops1'
+[2026-01-07 11:55:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 11:55:34Z INFO ConfigurationManager] Server URL configured - URL: 'https://dev.azure.com/synapse-devops1', IsUnattended: False
+[2026-01-07 11:55:34Z INFO ConfigurationManager] GetCredentialProvider
+[2026-01-07 11:55:34Z VERB CredentialManager] Entering Initialize
+[2026-01-07 11:55:34Z INFO CommandSettings] Arg 'auth': ''
+[2026-01-07 11:55:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 11:55:34Z INFO PromptManager] ReadValue
+[2026-01-07 11:55:34Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2026-01-07 11:55:34Z INFO Terminal] READ LINE
+[2026-01-07 11:55:49Z INFO Terminal] Read value: ''
+[2026-01-07 11:55:49Z INFO PromptManager] Falling back to the default: 'PAT'
+[2026-01-07 11:55:49Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2026-01-07 11:55:49Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 11:55:49Z INFO CredentialManager] Creating type PAT
+[2026-01-07 11:55:49Z INFO CredentialManager] Creating credential type: PAT
+[2026-01-07 11:55:49Z VERB CredentialManager] Created credential type
+[2026-01-07 11:55:49Z INFO PersonalAccessToken] EnsureCredential
+[2026-01-07 11:55:49Z INFO CommandSettings] Arg 'token': ''
+[2026-01-07 11:55:49Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 11:55:49Z INFO PromptManager] ReadValue
+[2026-01-07 11:55:49Z INFO Terminal] WRITE: Enter personal access token > 
+[2026-01-07 11:55:49Z INFO Terminal] READ SECRET
+[2026-01-07 12:02:14Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2026-01-07 12:02:14Z INFO Terminal] Read value: '***'
+[2026-01-07 12:02:14Z INFO ConfigurationManager] cred retrieved
+[2026-01-07 12:02:14Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 12:02:14Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 12:02:14Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 12:02:14Z INFO PersonalAccessToken] cred created
+[2026-01-07 12:02:14Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:02:14Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData
+[2026-01-07 12:02:14Z VERB VisualStudioServices] Created Basic issued token provider instance 18475057 (Basic)
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Basic issued token provider instance 18475057 validated token instance 8549920
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData with status code 200
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData with status code 200
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:02:15Z INFO ConfigurationManager] Server type detection completed - IsHostedServer: True
+[2026-01-07 12:02:15Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 12:02:15Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 12:02:15Z INFO PersonalAccessToken] cred created
+[2026-01-07 12:02:15Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2026-01-07 12:02:15Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Created Basic issued token provider instance 11303304 (Basic)
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Basic issued token provider instance 11303304 validated token instance 65048103
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData with status code 200
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:02:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData
+[2026-01-07 12:02:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 12:02:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:02:15Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData
+[2026-01-07 12:02:16Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData with status code 200
+[2026-01-07 12:02:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:02:16Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/synapse-devops1/_apis/connectionData with status code 200
+[2026-01-07 12:02:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:02:16Z INFO ConfigurationManager] Test Connection complete.
+[2026-01-07 12:02:16Z VERB RSAEncryptedFileKeyManager] Entering Initialize
+[2026-01-07 12:02:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\bin'
+[2026-01-07 12:02:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent'
+[2026-01-07 12:02:16Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.credentials_rsaparams'
+[2026-01-07 12:02:16Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2026-01-07 12:02:16Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\krsum\OneDrive\Desktop\Synapse\azagent\.credentials_rsaparams
+[2026-01-07 12:02:16Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:02:16Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2026-01-07 12:02:16Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:02:16Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:02:16Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:02:16Z INFO PromptManager] ReadValue
+[2026-01-07 12:02:16Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:02:16Z INFO Terminal] READ LINE
+[2026-01-07 12:02:33Z INFO Terminal] Read value: 'local-agent'
+[2026-01-07 12:02:33Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/distributedtask/pools
+[2026-01-07 12:02:33Z WARN VisualStudioServices] Authentication failed with status code 401.
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/"
+X-TFS-ProcessId: 423bd84c-59ed-4d09-8f3c-917881c42d0b
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 73feff77-5180-484e-9fc4-e7af76324ca2
+X-TFS-Session: 7287b385-6739-446e-8909-485769177c3f
+X-VSS-E2EID: ee3cab50-0ec7-4e35-9f2b-3c52623e563d
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 0B2940C0F4A642ECA780081143FD0B53 Ref B: MAA201060513047 Ref C: 2026-01-07T12:02:32Z
+Date: Wed, 07 Jan 2026 12:02:32 GMT
+
+[2026-01-07 12:02:33Z VERB VisualStudioServices] Basic issued token provider instance 11303304 invalidated token instance 65048103
+[2026-01-07 12:02:33Z WARN VisualStudioServices] Basic issued token provider instance 11303304 requires an interactive prompt which is not allowed by the current settings
+[2026-01-07 12:02:33Z ERR  VisualStudioServices] GET request to https://dev.azure.com/synapse-devops1/_apis/distributedtask/pools is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2026-01-07 12:02:33Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:02:33Z ERR  Terminal] WRITE ERROR (exception):
+[2026-01-07 12:02:33Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider.GetPoolIdAndName(AgentSettings agentSettings, CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationProvider.cs:line 83
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 232
+[2026-01-07 12:02:33Z ERR  Terminal] WRITE ERROR: Failed to find pool name. Try again or ctrl-c to quit
+[2026-01-07 12:02:33Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:02:33Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:02:33Z INFO PromptManager] ReadValue
+[2026-01-07 12:02:33Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:02:33Z INFO Terminal] READ LINE
+[2026-01-07 12:02:36Z INFO Terminal] Read value: ''
+[2026-01-07 12:02:36Z INFO PromptManager] Falling back to the default: 'default'
+[2026-01-07 12:02:36Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/distributedtask/pools
+[2026-01-07 12:02:37Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 423bd84c-59ed-4d09-8f3c-917881c42d0b
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 73fefe20-5180-484e-9fc4-e7af76324ca2
+X-TFS-Session: 7287b385-6739-446e-8909-485769177c3f
+X-VSS-E2EID: 74eadf92-c09f-4986-9b3f-43b7be00b645
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/synapse-devops1/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/synapse-devops1/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fsynapse-devops1%2F_apis%2Fdistributedtask%2Fpools%3FpoolName%3Ddefault%26poolType%3DAutomation&redirect=1&hid=3161cb10-c361-48ad-bf8a-ada81f52b406&context=eyJodCI6MiwiaGlkIjoiMWFlNGQ1N2EtM2VmMS00MGY4LTk5YjEtNWUxMDRkMjNmYzYwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=80b44fcc-ec6b-4ef6-8e6f-2ed84829a446#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 1B67B25D73AB4A819915950B72FEF8EE Ref B: MAA201060513047 Ref C: 2026-01-07T12:02:36Z
+Date: Wed, 07 Jan 2026 12:02:35 GMT
+
+[2026-01-07 12:02:37Z WARN VisualStudioServices] Basic issued token provider instance 11303304 requires an interactive prompt which is not allowed by the current settings
+[2026-01-07 12:02:37Z ERR  VisualStudioServices] GET request to https://dev.azure.com/synapse-devops1/_apis/distributedtask/pools is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2026-01-07 12:02:37Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:02:37Z ERR  Terminal] WRITE ERROR (exception):
+[2026-01-07 12:02:37Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider.GetPoolIdAndName(AgentSettings agentSettings, CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationProvider.cs:line 83
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 232
+[2026-01-07 12:02:37Z ERR  Terminal] WRITE ERROR: Failed to find pool name. Try again or ctrl-c to quit
+[2026-01-07 12:02:37Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:02:37Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:02:37Z INFO PromptManager] ReadValue
+[2026-01-07 12:02:37Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:02:37Z INFO Terminal] READ LINE
+[2026-01-07 12:04:09Z INFO Terminal] Read value: ''
+[2026-01-07 12:04:09Z INFO PromptManager] Falling back to the default: 'default'
+[2026-01-07 12:04:09Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/synapse-devops1/_apis/distributedtask/pools
+[2026-01-07 12:04:09Z INFO Terminal] WRITE LINE: Exiting...
