@@ -1,14 +1,14 @@
-🚀 Synapse – Azure DevOps & AKS Project
-📌 Overview
+ Synapse – Azure DevOps & AKS Project
+ Overview
 
 Synapse is an end-to-end Azure DevOps & Cloud-Native project demonstrating Infrastructure as Code (IaC), containerization, CI/CD readiness, and Kubernetes deployment on Microsoft Azure.
 
 The project provisions Azure infrastructure using Terraform, containerizes a microservice using Docker, stores images securely in Azure Container Registry (ACR), deploys workloads to Azure Kubernetes Service (AKS), and exposes services publicly using an Azure LoadBalancer.
 
-🏗️ Architecture
+ Architecture
 Code → Docker → Azure Container Registry → AKS → LoadBalancer → Public API
 
-🛠️ Tech Stack
+ Tech Stack
 
 Cloud: Microsoft Azure
 
@@ -24,7 +24,7 @@ CI/CD: Azure DevOps (pipeline-ready)
 
 OS: Linux (WSL2 on Windows)
 
-📂 Project Structure
+Project Structure
 Synapse/
 │
 ├── infra/                  # Terraform IaC
@@ -41,7 +41,7 @@ Synapse/
 │
 └── pipelines/              # Azure DevOps YAML pipelines
 
-🚀 Key Features
+Key Features
 
 Infrastructure provisioning using Terraform modules
 
@@ -55,6 +55,6 @@ Public service exposure using LoadBalancer
 
 Cost-optimized temporary AKS provisioning
 
-💰 Cost Optimization
+ Cost Optimization
 
 AKS was provisioned temporarily for validation and decommissioned after testing to prevent unnecessary cloud costs.
