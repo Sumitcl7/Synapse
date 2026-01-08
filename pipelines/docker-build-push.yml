@@ -1,0 +1,26 @@
+trigger:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  ACR_NAME: synapseacrdev
+  IMAGE_NAME: user-service
+  TAG: v1
+
+steps:
+  - checkout: self
+
+  - task: AzureCLI@2
+    displayName: Build and Push Docker Image to ACR
+    inputs:
+      azureSubscription: "AzureServiceConnection"
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        az acr login --name $(ACR_NAME)
+        cd services/user-service
+        docker build -t $(IMAGE_NAME):$(TAG) .
+        docker tag $(IMAGE_NAME):$(TAG) $(ACR_NAME).azurecr.io/$(IMAGE_NAME):$(TAG)
+        docker push $(ACR_NAME).azurecr.io/$(IMAGE_NAME):$(TAG)
